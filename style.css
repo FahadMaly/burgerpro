@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/*
+    font-family: 'Alfa Slab One', cursive;
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+*/
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+*{
+	text-decoration: none;
+}
+.a{
+	text-decoration: none;
+}
+.banner-section{
+	width: 100%;
+	height: 100%;
+	background: url(./img/home-bg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.container{
+	width: 1040px;
+	margin: 0 auto;
+}
+.banner{
+	padding-top: 16px;
+}
+.head{
+	display: flex;
+	justify-content: space-between;
+}
+.head-right{
+	text-align: right;
+}
+.head-right img{
+	vertical-align: middle;
+}
+.head-right span{
+	vertical-align: middle;
+	font-size: 18px;
+}
+.Contact ul{
+	padding-top: 10px;
+}
+.Contact ul li{
+	list-style: none;
+	display: inline-block;
+}
+.Contact ul li a{
+	margin-left: 16px;
+	color: #362222;
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Bebas Neue', cursive;
+}
+.banner-menu{
+	display: flex;
+	flex-basis: 50%;
+}
+.banner-left{
+	padding-top: 111px
+}
+.banner-right img{
+	width: 100%;
+	height:100%;
+}
+.banner-left p{
+	font-size:17px;
+	letter-spacing: 1px;
+	border: dashed;
+	color: #3d2514;
+	font-family: 'Bebas Neue', cursive;
+	margin-right: 104px;
+	padding: 8px 5px;
+}
+.banner-left h1{
+	font-size: 90px;
+	text-shadow: 3px 2px aliceblue;
+    color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+}
+.banner-left h2{
+	font-size: 59px;
+	text-shadow: 3px 2px aliceblue;
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+
+}
+.pic-slot{
+	display: flex;
+	margin: 50px 70px;
+}
+.pic-slot img{
+	width: 100%;
+	height: auto;
+}
+.most-popular img{
+	position: relative;
+	z-index: -1;
+}
+.most-txt{
+	position: absolute;
+	z-index: +1;
+	text-transform: uppercase;
+	 color: white;
+	 padding: 15px;
+	 font-family: 'Bebas Neue', cursive;
+}
+.most-txt h3{
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+.most-txt h2{
+	font-size: 37px;
+}
+.burger-2{
+	padding-left: 25px;
+}
+.burg-2 img{
+	position: relative;
+	z-index: -1;
+}
+.more-txt{
+	position: absolute;
+	z-index: +1;
+}
+
+
+
+
+
+
+.burg-3{
+	padding-top: 20px;
+}
+.choose{
+	text-align: center;
+}
+.choose h3{
+	background-color:#FFB740;
+	  color: #3d2514;
+	margin: 30px 440px;
+    padding: 5px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.choose h1{
+		  color: #3d2514;
+		font-size: 40px;
+		padding: 17px;
+		font-family: 'Alfa Slab One', cursive;
+		text-transform: uppercase;
+}
+.choose p{
+	padding: 15px 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: unset;
+	margin: 25px 70px;
+	 color: #3d2514;
+	 font-size: 16px;
+}
+.order-section img{
+	width: 100%;
+	height: auto;
+}
+.order-section{
+	display: flex;
+	margin: 50px 70px;
+}
+.lorem-burger h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #3d2514;
+	font-family: 'Bebas Neue', cursive;
+}
+.lorem-burger p{
+	text-align: center;
+     color: #3d2514;
+     letter-spacing: 1px;
+     font-family: 'Montserrat', sans-serif;
+     padding: 20px 0px;
+     font-size: 15px;
+ }
+.lorem-burger button{
+	padding: 5px 20px;
+	text-transform: uppercase;
+	color: white;
+	background-color: #D54C4C;
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: 1px;
+	font-size: 14px;
+	transition: 0.3s;
+    border: 0px;
+}
+.lorem-burger button:hover{
+	cursor: pointer;
+	background: transparent;
+    color: #D54C4C;
+    transition: 0.3s;
+}
+.button{
+	text-align: center;
+}
+.java{
+	margin: 50px 70px;
+	padding-top: 160px;
+}
+.java img{
+	width: 100%;
+	height: 100%;
+}
+.resevation{
+	width: 100%;
+	height: 100%;
+	background: url(./img/bg-burger.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #3d2514;
+}
+.resevation h2{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+}
+.resevation h1{
+	text-transform: uppercase;
+	font-size: 35px;
+	padding: 35px;
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: 1px;
+}
+.table{
+	display: flex;
+	margin: 50px 300px;
+}
+.table-left input{
+	width: 250px;
+	height: 30px;
+	font-size: 15px;
+	padding: 15px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Bebas Neue', cursive;
+}
+.table-right input{
+	width: 250px;
+	height: 30px;
+	font-size: 15px;
+	padding: 15px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Bebas Neue', cursive;
+}
+.table-right{
+	padding-left: 12px;
+}
+.table-right button{
+	color: white;
+	background-color: #D54C4C;
+    width: 250px;
+	height: 35px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Alfa Slab One', cursive;
+	border: 0px;
+	transition: 0.3s;
+}
+.table-right button:hover{
+	cursor: pointer;
+	background: transparent;
+    color: #D54C4C;
+    transition: 0.3s;
+}
+.footer{
+	background: url(./img/ft-burger.png);
+	margin: 50px 110px;
+}
+.footer img{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 70px;
+}
+.upper{
+	display: flex;
+	padding-bottom: 50px;
+}
+.logo-mark{
+	flex-basis: 50%;
+	padding:20px;
+}
+.logo-mark img{
+	width: 30%;
+	height: 40%;
+}
+.logo-mark p{
+	  font-family: 'Montserrat', sans-serif;
+	  font-size: 16px;
+	  color: white;
+}
+.icon-mark{
+	flex-basis: 50%;
+	padding-top: 145px;
+    padding-left: 180px;
+    margin-right: 16px;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+}
+.loca i{
+	font-size: 35px;
+	vertical-align: middle;
+}
+.loca span{
+	font-size: 20px;
+	vertical-align: center;
+}
+.email{
+	padding-top: 5px;
+}
+.email i{
+	font-size: 25px;
+	vertical-align: middle;
+}
+.email span{
+	font-size: 20px;
+	vertical-align: center;
+	letter-spacing: 1px;
+}
+.lower{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+.copyright{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-left: 30px;
+
+}
+.icon-slot{
+	display: inherit;
+	padding-right: 40px;
+}
+.insta{
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 100%;
+	text-align:center;
+	margin-left: 16px;
+}
+.face{
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 100%;
+	text-align:center;
+	margin-left: 16px;;
+}
+.twit{
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 100%;
+	text-align:center;
+    margin-left: 16px;
+}
+.whats{
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 100%;
+	text-align:center;
+	margin-left: 16px;
+}
